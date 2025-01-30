@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5431/postgres?currentSchema=jooq_test
+    username: user1
+    password: Aa123456
+    hikari:
+      schema: jooq-test
+  jooq:
+    sql-dialect: POSTGRES
+  sql:
+    init:
+      mode=always:
